@@ -1,16 +1,22 @@
 * {
-    background-color: rgb(246, 227, 227);
+    background: rgb(246, 227, 227);
 }
 
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #ffabab;
     font-size: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;   
+}
+
+.siams a, .britans a, .sfinks a {
+    text-decoration: none;
 }
 .siam1 {
     width: 30%;
@@ -73,3 +79,33 @@ h2 {
     font-size: large;
     font-weight: 700;
 }
+
+.nav {
+    width: 100%;
+    background-color: rgb(241, 216, 216);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.backto {
+    width: 100%;
+    padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style-type: none;
+}
+li a {
+    color: rgb(231, 228, 228);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    background-color: brown;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+li a:hover {
+    background-color: rgb(122, 17, 17);
